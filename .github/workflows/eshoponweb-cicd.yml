@@ -70,7 +70,7 @@ jobs:
           path: bicep-template
 
       #Login in your azure subscription using a service principal (credentials stored as GitHub Secret in repo)
-      - name: Azure CLI Login
+      - name: Set Azure Subscriptio
         uses: azure/CLI@v2
         with:
           inlineScript: |
